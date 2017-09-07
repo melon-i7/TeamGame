@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.melon_i7.teamgame.activity.Main3Activity">
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="游戏说明"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    本游戏模仿当今主流游戏的组队功能模块，点击开始可以到游戏主页面，上方显示组队信心，中间显示待命人员，下方显示打怪功能模块。打怪规则是随机怪物1-50的其中一种，需要玩家在规定时间内猜中数字。进度条会作为胜负标识之一。"
+            android:textSize="15sp"
+            android:paddingBottom="300dp"/>
+        <Button
+            android:id="@+id/c_bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textSize="30sp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
